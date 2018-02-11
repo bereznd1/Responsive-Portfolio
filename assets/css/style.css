@@ -375,12 +375,28 @@ footer {
     main {
         min-height: 1300px;
     }
+
+    #mainlink1 {
+        margin: 9%;
+    }
+
+    #mainlink2 {
+        margin: 9%;
+    }
+
+    #mainlink3 {
+        margin: 9%;
+    }
     
     
     .logo {
-        width: 100%;
+        width: 95%;
         float: none;
         clear: right;
+        text-align: center;
+    }
+
+    .navlinks {
         text-align: center;
     }
 
