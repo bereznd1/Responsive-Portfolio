@@ -214,9 +214,6 @@ aside {
     float: left;
 }
 
-#mp3 {
-    float: left;
-}
 
 .portfolioimage1 {
     position: relative;
@@ -313,14 +310,55 @@ footer {
         width: 55%;
         float: left;
     }
+
+    #headshot {
+        width: 100%;
+    }
+
+    #headphones {
+        width: 100%;
+    }
+
+    #ipad {
+        width: 100%;
+    }
+
+    #laptop {
+        width: 100%;
+        margin-bottom: 6%;
+    }
+
+    #meeting {
+        width: 100%;
+    }
+
+    .portfolioitem1  {
+        width: 95%;
+        top: 205px;
+    }
+
+    .portfolioitem2 {
+        width: 95%;
+        top: 477px;
+        left: 0px;
+    }
+
+    .portfolioitem3  {
+        width: 95%;
+        top: 750px;
+    }
+
+    .portfolioitem4  {
+        width: 95%;
+        top: 1028px;
+        left: 0px;
+    }
+
+
     
     aside {
         width: 29%;
         float: right;
-    }
-
-    #headshot {
-        width: 100%;
     }
 
     .iconhover {
@@ -335,27 +373,86 @@ footer {
         margin: 0 auto;
     }
 
+    
     main {
         width: 95%;
-        min-height: 930px;
+        min-height: 930px; 
     }
-
     
+
     article {
         width: 95%;
         float: left;
         margin-bottom: 5%;
-    }
-    
-    aside {
-        width: 95%;
-        float: left;
     }
 
     #headshot {
         width: 50%;
     }
 
+
+    #headphones {
+        width: auto;
+        float: left;
+        margin-right: 40px;
+        margin-bottom: 20px;
+    }
+    
+    #ipad {
+        width: auto;
+        float: left;
+        margin-bottom: 20px;
+    }
+    
+    #laptop {
+        width: auto;
+        float: left;
+        margin-right: 40px;
+        
+    }
+    
+    #meeting {
+        width: auto;
+        float: left;
+    }
+
+
+    .portfolioitem1 {
+     
+        width: 285px;
+        top: 150px;
+       
+    }
+    
+    .portfolioitem2 {
+
+        width: 285px;
+        top: 150px;
+        left: 345px;
+
+    }
+    
+    .portfolioitem3 {
+
+        width: 285px;
+        top: 365px;
+
+    }
+    
+    .portfolioitem4 {
+
+        width: 285px;
+        top: 365px;
+        left: 345px;
+ 
+    }
+
+    
+    
+    aside {
+        width: 95%;
+        float: left;
+    }
 
 
 }
@@ -365,15 +462,14 @@ footer {
         position: static;
     }
 
-    /*
-    #headercontent {
-        margin: 0 auto;
-        
+    .logo {
+        width: 95%;
+        text-align: center;
     }
-    */
 
-    main {
-        min-height: 1300px;
+    nav {
+        width: 100%;
+        clear: left;
     }
 
     #mainlink1 {
@@ -387,31 +483,54 @@ footer {
     #mainlink3 {
         margin: 9%;
     }
-    
-    
-    .logo {
-        width: 95%;
-        float: none;
-        clear: right;
-        text-align: center;
-    }
 
-    .navlinks {
-        text-align: center;
-    }
-
-    nav {
-        width: 100%;
-        clear: left;
-        float: none;
+    main {
+        min-height: 1300px;
     }
 
     #headshot {
         width: 100%;
     }
 
-    .linkhover {
-        padding: 0% 0%;
-        text-align: center;
+
+    #headphones {
+        width: 100%;
     }
+
+    #ipad {
+        width: 100%;
+    }
+
+    #laptop {
+        width: 100%;
+        margin-bottom: 6%;
+    }
+
+    #meeting {
+        width: 100%;
+    }
+
+    .portfolioitem1  {
+        width: 96.4%;
+        top: 305px;
+    }
+
+    .portfolioitem2 {
+        width: 96.4%;
+        top: 677px;
+        left: 0px;
+    }
+
+    .portfolioitem3  {
+        width: 96.4%;
+        top: 1055px;
+    }
+
+    .portfolioitem4  {
+        width: 96.4%;
+        top: 1443px;
+        left: 0px;
+    }
+    
+
 }
